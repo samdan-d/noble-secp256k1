@@ -25,7 +25,7 @@
   },
   "license": "MIT",
   "browser": {
-    "crypto": false
+    "crypto": true
   },
   "devDependencies": {
     "@noble/hashes": "1.1.2",
