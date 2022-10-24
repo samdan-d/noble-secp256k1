@@ -1,6 +1,6 @@
 {
-  "name": "@noble/secp256k1",
-  "version": "1.7.0",
+  "name": "@samdan/secp256k1",
+  "version": "0.0.1",
   "description": "Fastest JS implementation of secp256k1. Independently audited, high-security, 0-dependency ECDSA & Schnorr signatures",
   "files": [
     "lib"
@@ -21,12 +21,9 @@
   "homepage": "https://paulmillr.com/noble/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/paulmillr/noble-secp256k1.git"
+    "url": "https://github.com/samdan-d/noble-secp256k1"
   },
   "license": "MIT",
-  "browser": {
-    "crypto": true
-  },
   "devDependencies": {
     "@noble/hashes": "1.1.2",
     "@rollup/plugin-commonjs": "22.0.0",
@@ -79,5 +76,8 @@
       "type": "individual",
       "url": "https://paulmillr.com/funding/"
     }
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
